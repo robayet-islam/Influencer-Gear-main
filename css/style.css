@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+a{ 
+    text-decoration: none;
+}
+ol li{
+    list-style:none;
+}
+/* ==============Header Part Start============== */
+#header{
+    background: white;
+}
+.logoo{
+    width: 243px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav-btn{
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+/* ===========Banner Part Start============= */
+#Banner{
+    display: flex;
+    gap: 133px;
+}
+.banner-content .banner-title{
+    width: 582px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.banner-content .banner-description{
+    width: 505px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+}
+.banner-content .banner-btn{
+    width: 190px;
+    height: 50px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 24px;
+    border-radius: 41px;
+    background: #E02C6D;
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    border: none;
+}
+.banner-img{
+    margin-top: 50px;
+}
